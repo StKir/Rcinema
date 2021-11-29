@@ -1,0 +1,168 @@
+/* Noto Sans Regular
+
+font-family: noto-sans, sans-serif;
+
+font-weight: 400;
+
+font-style: normal;
+
+
+Noto Sans Medium
+
+font-family: noto-sans, sans-serif;
+
+font-weight: 500;
+
+font-style: normal;
+
+
+Noto Sans SemiBold
+
+font-family: noto-sans, sans-serif;
+
+font-weight: 600;
+
+font-style: normal;
+
+
+Noto Sans Bold
+
+font-family: noto-sans, sans-serif;
+
+font-weight: 700;
+
+font-style: normal; */
+body{
+    background-color: #171717;
+    margin: 0;
+    padding: 0;
+}
+.fl{
+    display: flex;
+}
+h1{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 96px;
+    line-height: 106.38%;
+    /* or 102px */
+
+
+    color: #FFFFFF;
+}
+.main_page{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: noto-sans, sans-serif;
+}
+div, p, input, button, span, a, ul, li {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style-type: none;
+}
+.main_page__left_section{
+    width: 537px;
+    height: 767px;
+}
+.logo{
+    margin-top: 47px;
+    margin-left: 136px;
+    display: block;
+}
+.navmenu{
+    margin-top: 159px;
+    margin-left: 212px;
+}
+.navmenu li{
+    color: #E5E5E5;
+    font-weight: 600;
+    font-size: 18px;
+    margin-bottom: 25px;
+    list-style: none;
+    transition: all 0.5s ease;
+}
+.navmenu li:hover{
+    list-style: url(img/liStyle.png);
+    padding-left: 10px;
+}
+.paralacksimg{
+    height: 130px;
+    margin: 159px 0 0 0;
+    width: 537px;
+    background:url(img/paralacksphoto.png);
+    background-size: 65%;
+    background-attachment: fixed;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.main_page__right_section{
+    background: url(img/background.png) no-repeat center top / cover;
+    width: 903px;
+    background-size: 100% ;
+}
+.right_nav{
+    margin-top: 47px;
+    margin-left: 70%;
+}
+.local{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 106.38%;
+    color: #fff;
+    display: block;
+    width: 165px;
+}
+.imglocal{
+    width: 12px;
+    height: 15px;
+    margin-right: 10px;
+    margin-top: 2px;
+
+}
+.phone{
+    margin-top: 22px;
+}
+.phoneicon{
+    width: 12px;
+    height: 12px;
+    margin-right: 10px;
+    margin-top: 8px;
+}
+.phonenumb{
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 18px;
+    color: #fff;
+    width: 200px;
+    display: block;
+}
+.main_offer{
+    width: 717px;
+    margin-left: -63px;
+    margin-top: 53px;
+}
+.sm{
+    margin-top: 175px;
+    margin-left: 75px;
+}
+.sm a{
+    margin-right: 56px;
+}
+.sm a:last-child{
+    margin-right: 0px;
+}
+.vk{
+    display: block;
+}
+.ase{
+    height: 10000px;
+}
