@@ -106,8 +106,8 @@ div, p, input, button, span, a, ul, li {
 }
 .main_page__right_section{
     background: url(img/background.png) no-repeat center top / cover;
-    width: 903px;
-    background-size: 100% ;
+    width: 100%;
+    height: auto;
 }
 .right_nav{
     margin-top: 47px;
@@ -162,7 +162,4 @@ div, p, input, button, span, a, ul, li {
 }
 .vk{
     display: block;
-}
-.ase{
-    height: 10000px;
 }
